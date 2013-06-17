@@ -6,7 +6,7 @@ be built on a RESTful PHP MVC framework. Data will be encapsulated in
 valid JSON for transport. Authentication will mimic oAuth 1.0A for 
 launch, and later will be converted to a meed full oAuth 2.0 spec.
 
-> TableTalk > Social Dining Experience
+> TableTalk: Your Social Dining Experience
 
 API Methods
 ===========
@@ -41,9 +41,8 @@ API Methods
 * viewBill(username, oAuthIdent, restaurant, ...)
 * getBill(username, oAuthIdent, waiter, ...)
 * payBill(username, oAuthIdent, restaurant, ...)
-* pushSuggestionToOtherPatrons(...)
-* pushNotification(...)
-* pushUpdate(...)
+* pushSuggestionToOtherPatrons(username, oAuthIdent, ...)
+* pushChatMessageToOtherPatrons(username, oAuthIdent, ...)
 
 ------------------------
 
