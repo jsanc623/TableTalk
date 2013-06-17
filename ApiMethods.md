@@ -6,7 +6,8 @@ be built on a RESTful PHP MVC framework. Data will be encapsulated in
 valid JSON for transport. Authentication will mimic oAuth 1.0A for 
 launch, and later will be converted to a meed full oAuth 2.0 spec.
 
-Social Dining Experience
+TableTalk > Social Dining Experience
+------------------------------------
 
 API Methods
 ===========
