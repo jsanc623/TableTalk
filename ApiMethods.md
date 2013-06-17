@@ -10,6 +10,6 @@ API Methods
 ===========
 
 > **Authentication**
-* userLogin(username, password, timestamp)
-* userLogout(username, timestamp)
+    * userLogin(username, password, timestamp)
+    * userLogout(username, timestamp)
 
