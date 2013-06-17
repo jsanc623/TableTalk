@@ -19,14 +19,30 @@ API Methods
 * userCreate(username, password, timestamp, ...)
 * userDelete(username, password, timestamp, ...)
 * userUpdate(username, oAuthIdent, timestamp, ...)
-* fetchData (username, oAuthIdent, ...)
+* userAccount(username, oAuthIdent, ...)
 
 **User Social Actions**
-* addToFavorites(username, oAuthIdent, timestamp, addRemove, ...)
-* delFrFavorites(username, oAuthIdent, timestamp, addRemove, ...)
+* addToFavorites(username, oAuthIdent, addRemove, ...)
+* delFromFavorites(username, oAuthIdent, addRemove, ...)
 * shareThis(username, oAuthIdent, ...)
-* 
+* postReview(username, oAuthIdent, ...)
 
+**User In-Restaurant Actions**
+* fetchRestaurantPreferences(...)
+* checkIn(username, oAuthIdent, restaurant, ...)
+* checkOut(username, oAuthIdent, restaurant, ...)
+* tagWaiter(username, oAuthIdent, waiter, ...)
+* msgWaiter(username, oAuthIdent, waiter, ...)
+* fetchMenu(username, oAuthIdent, restaurant, ...)
+* fetchMyOrder(username, oAuthIdent, restaurant, ...)
+* addToOrder(username, oAuthIdent, restaurant, ...)
+* viewBill(username, oAuthIdent, restaurant, ...)
+* getBill(username, oAuthIdent, waiter, ...)
+* payBill(username, oAuthIdent, restaurant, ...)
+* pushSuggestion(...)
+* pushNotification(...)
+* pushUpdate(...)
+* 
 
 ------------------------
 
