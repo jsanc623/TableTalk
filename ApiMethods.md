@@ -12,6 +12,8 @@ API Methods
 **Authentication**
 * userLogin (username, password, timestamp)
 * userLogout(username, oAuthIdent, timestamp)
+* createHash(username, password, timestamp)
+* sessionHeartbeat(username, oAuthIdent)
 
 **User Accounts**
 * userCreate(username, password, timestamp, ...)
@@ -19,8 +21,11 @@ API Methods
 * userUpdate(username, oAuthIdent, timestamp, ...)
 * fetchData (username, oAuthIdent, ...)
 
-**User Actions**
-* modifyFavorites(username, oAuthIdent, timestamp, addRemove, ...)
+**User Social Actions**
+* addToFavorites(username, oAuthIdent, timestamp, addRemove, ...)
+* delFrFavorites(username, oAuthIdent, timestamp, addRemove, ...)
+* shareThis(username, oAuthIdent, ...)
+* 
 
 
 ------------------------
