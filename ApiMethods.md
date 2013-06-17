@@ -9,17 +9,17 @@ launch, and later will be converted to a meed full oAuth 2.0 spec.
 API Methods
 ===========
 
-> **Authentication**
+**Authentication**
 >> userLogin (username, password, timestamp)
 >> userLogout(username, oAuthIdent, timestamp)
 
-> **User Accounts**
+**User Accounts**
 >> userCreate(username, password, timestamp, ...)
 >> userDelete(username, password, timestamp, ...)
 >> userUpdate(username, oAuthIdent, timestamp, ...)
 >> fetchData (username, oAuthIdent, ...)
 
-> **User Actions**
+**User Actions**
 >> modifyFavorites(username, oAuthIdent, timestamp, addRemove, ...)
 
 
