@@ -10,6 +10,19 @@ API Methods
 ===========
 
 > **Authentication**
-    * userLogin(username, password, timestamp)
-    * userLogout(username, timestamp)
+* userLogin (username, password,   timestamp)
+* userLogout(username, oAuthIdent, timestamp)
 
+> **User Accounts**
+* userCreate(username, password,   timestamp, ...)
+* userDelete(username, password,   timestamp, ...)
+* userUpdate(username, oAuthIdent, timestamp, ...)
+* fetchData (username, oAuthIdent, ...)
+
+> **User Actions**
+* userAddToFavorites(username, oAuthIdent, timestamp, restaurantData, otherData...)
+* userRemoveFromFavorites(username, oAuthIdent, timestamp, restaurantData, otherData...)
+
+
+> **Restaurant Accounts**
+* 
