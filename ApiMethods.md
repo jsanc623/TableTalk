@@ -9,8 +9,7 @@ launch, and later will be converted to a meed full oAuth 2.0 spec.
 API Methods
 ===========
 
-Authentication
-++++++++++++++
+> Authentication
 * userLogin(username, password, timestamp)
 * userLogout(username, timestamp)
 
