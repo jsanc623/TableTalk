@@ -12,7 +12,7 @@ API Methods
 ===========
 
 **Authentication**
-* _userLogin_(username, password, timestamp)
+* __userLogin__(username, password, timestamp)
 * userLogout(username, oAuthIdent, timestamp)
 * createHash(username, password, timestamp)
 * sessionHeartbeat(username, oAuthIdent)
